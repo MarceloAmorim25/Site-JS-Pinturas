@@ -1,0 +1,122 @@
+#img-cabecalho {
+    height: 300px;
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+#img-footer {
+    height: 10%;
+    width: 10%;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+
+header {
+    background: #3b6c94;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;   
+}
+
+#naveg {
+    padding-top: 135px;
+
+}
+
+#p1 {
+    height: 400px;
+    width: 400px;
+     
+}
+
+#p2 {
+    height: 400px;
+    width: 400px;
+}
+
+#p3 {
+    height: 400px;
+    width: 400px;
+}
+
+.produtos {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.produtos li {
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 2% 1%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 0;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.produtos li:hover {
+    border-color: lightblue;    
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding-left: 85px;
+}
