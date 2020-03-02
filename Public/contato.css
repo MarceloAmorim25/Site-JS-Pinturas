@@ -1,0 +1,136 @@
+#img-cabecalho {
+    height: 300px;
+    width: 300px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+header {
+    background: #3b6c94;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #C78C19;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;   
+}
+
+#naveg {
+    padding-top: 135px;
+
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding-left: 85px;
+}
+
+#img-footer {
+    height: 10%;
+    width: 10%;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding-top: 60px;  
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+#pref-cont input {
+    margin: 1px 0;
+}
+
+p {
+    padding-top: 40px;
+    color: black;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s background;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    
+    background: #6235dd;
+}
+
+table {
+    margin: 20px 0 40px;
+    padding-top: 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 15px 8px;
+}
+
+#divcontato {
+    padding-top: 100px;
+}
