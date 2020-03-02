@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Contato</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/home/marceloamorim/Portifólio/Ferramentas básicas/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="caixa">
+            <h1><img src="img/js pintura (1).png" id="img-cabecalho" alt="logo do Restaurante Gyosa"></h1>
+                <nav id="naveg">
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="orcamento.html">Serviços e Orçamento</a></li>
+                      </ul>
+              </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div id="divcontato">
+
+              <h5>Entre em contato conosco diretamente:</h5>
+              <br>
+              <h5>Email: jspinturas@gmail.com</h5>
+              <br>
+              <h5>Telefone: (61) XXXX-XXXX</h5>
+              <br>
+              <h5>Ou preencha o formulário abaixo e logo entraremos em contato:</h5>
+
+        </div>
+       
+        <form action="destino.php" method="POST">
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXX"> 
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="50" rows="10" class="input-padrao" required></textarea>
+
+                <fieldset id="pref-cont">
+
+                    <legend><h5>Como prefere nosso contato?</h5></legend>
+
+                          <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                          
+          
+                          <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                            Telefone</label>
+                          
+          
+                          <label for="radio-wpp"><input type="radio" name="contato" value="wpp" id="radio-wpp">
+                            WhatsApp</label>
+                          
+                            <fieldset>
+                              <legend><h5>Qual horário prefere ser atendido?</h5></legend>
+                              <select name="" id="">
+                                  <option value="">Manhã</option>
+                                  <option value="">Tarde</option>
+                                  <option value="">Noite</option>
+                              </select>
+                            </fieldset>    
+
+                          <label class="checkbox" for="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                            
+                          
+
+                          <input type="submit" value="Enviar formulário" class="enviar">
+
+                </fieldset>
+
+          </form>
+
+          <table>
+
+              <thead>
+                    <tr>
+                      <td>Dia</td>
+                      <td>Horário</td>
+                    </tr> 
+              </thead>
+
+          <tbody>
+              <tr>
+                <td>Segunda</td>
+                <td>10h-22h</td>
+              </tr> 
+
+              <tr>
+                <td>Terça</td>
+                <td>10h-22h</td>
+              </tr>
+              
+              <tr>
+                <td>Quarta</td>
+                <td>10h-22h</td>
+              </tr>
+              
+              <tr>
+                <td>Quinta</td>
+                <td>10h-22h</td>
+              </tr>
+              
+              <tr>
+                <td>Sexta</td>
+                <td>10h-22h</td>
+              </tr>
+              
+              <tr>
+                <td>Sábado</td>
+                <td>10h-22h</td>
+              </tr>
+              
+              <tr>
+                <td>Domingo</td>
+                <td>10h-22h</td>
+              </tr>
+              
+          </tbody>
+
+          </table>
+
+
+    </main>
+
+    <footer>
+        <img id="img-footer" src="img/js pintura.png" alt="logo referente à símbolo japonês">
+        <p id="credito"> &copy;Copyright 2020</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
